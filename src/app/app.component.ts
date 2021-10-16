@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Product } from './types/Product';
+import { ProductsMock } from './__mocks__/products.mock';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-store';
+  image = null;
 }
